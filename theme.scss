@@ -1,0 +1,44 @@
+/*-- scss:defaults --*/
+
+// Fonts
+
+// Colours
+$white: #fff;
+$gray-0: #f9f9f9;
+$gray-1: #eceeee;
+$gray-2: #dfe1e1;
+$gray-3: #d0d4d3;
+$gray-4: #c0c5c4;
+$gray-5: #aeb4b3;
+$gray-6: #99a1a0;
+$gray-7: #818b8a;
+$gray-8: #626f6d;
+$gray-9: #334240;
+$black: #000;
+
+// colours
+$base: #1a1a2b;
+$mantle: #161622;
+$surface0: #32324d;
+$surface1: #454569;
+$surface2: #5c5c8d;
+$text: #dadae7;
+$rosewater: #f5e0dc;
+$lavender: #b4befe;
+$red: #ff5964;
+$peach: #f89777;
+$yellow: #f8d353;
+$green: #06d6a0;
+$teal: #72e9c5;
+$blue: #5ea0fc;
+$purple: #9e72e9;
+$lime: #a6e3a1;
+
+// Default setup
+$body-bg: $base;
+$body-color: $text;
+$navbar-bg: $mantle;
+$navbar-fg: $lavender;
+
+// Contrast
+$min-contrast-ratio: 7;

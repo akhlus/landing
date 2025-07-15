@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Homepage",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "landing.html",
+    "href": "landing.html",
+    "title": "Quick Links",
+    "section": "",
+    "text": "Block button Block button\n\n\nBlock button"
+  },
+  {
+    "objectID": "landing.html#useful-external-links",
+    "href": "landing.html#useful-external-links",
+    "title": "External Links Grid",
+    "section": "",
+    "text": "::: {.row row-cols-1 row-cols-md-3 g-4}\n\n::: {.card h-100} ::: {.card-body} ### Google The most popular search engine.\n\n\n:::\n\n::: {.card h-100} ::: {.card-body} ### Wikipedia The free online encyclopedia.\n\n::: :::\n\n::: {.card h-100} ::: {.card-body} ### GitHub Code hosting and collaboration.\n\n::: :::\n\n::: {.card h-100} ::: {.card-body} ### Stack Overflow Q&A for programmers.\n\n::: :::\n\n::: {.card h-100} ::: {.card-body} ### RStudio IDE for R and Quarto.\n\n::: :::\n\n::: {.card h-100} ::: {.card-body} ### Quarto Docs Documentation for Quarto publishing.\n\n::: :::\n::: :::"
+  },
+  {
+    "objectID": "landing.html#grid-of-external-links",
+    "href": "landing.html#grid-of-external-links",
+    "title": "External Links Grid",
+    "section": "",
+    "text": "&lt;div class=\"col-6 col-md-4\"&gt;\n  &lt;a href=\"https://example.com\" target=\"_blank\" class=\"btn btn-primary w-100\"&gt;Example&lt;/a&gt;\n&lt;/div&gt;\n\n&lt;div class=\"col-6 col-md-4\"&gt;\n  &lt;a href=\"https://quarto.org\" target=\"_blank\" class=\"btn btn-success w-100\"&gt;Quarto&lt;/a&gt;\n&lt;/div&gt;\n\n&lt;div class=\"col-6 col-md-4\"&gt;\n  &lt;a href=\"https://rstudio.com\" target=\"_blank\" class=\"btn btn-danger w-100\"&gt;RStudio&lt;/a&gt;\n&lt;/div&gt;\n\n&lt;div class=\"col-6 col-md-4\"&gt;\n  &lt;a href=\"https://python.org\" target=\"_blank\" class=\"btn btn-warning w-100\"&gt;Python&lt;/a&gt;\n&lt;/div&gt;\n\n&lt;div class=\"col-6 col-md-4\"&gt;\n  &lt;a href=\"https://pytorch.org\" target=\"_blank\" class=\"btn btn-info w-100\"&gt;PyTorch&lt;/a&gt;\n&lt;/div&gt;\n\n&lt;div class=\"col-6 col-md-4\"&gt;\n  &lt;a href=\"https://tensorflow.org\" target=\"_blank\" class=\"btn btn-dark w-100\"&gt;TensorFlow&lt;/a&gt;\n&lt;/div&gt;"
+  }
+]

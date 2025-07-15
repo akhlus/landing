@@ -1,2 +1,1 @@
-# landing
-Landing page
+# Landing page for custom website
