@@ -13,8 +13,11 @@
   }:
     utils.lib.eachDefaultSystem (
       system: let
-        pkgs = nixpkgs.legacyPackages.${system};
-        pythonEnv = pkgs.python3.withPackages (ps: with ps; [
+        pkgs = (import nixpkgs) {
+          inherit system;
+          config = { allowUnfree = true; };
+        };
+        pythonEnv = pkgs.python3.withPackages (p: with p; [
           numpy
           matplotlib
         ]);
@@ -24,6 +27,7 @@
             quarto
             pandoc
             pythonEnv
+	    symbola
           ];
 
           shellHook = ''
